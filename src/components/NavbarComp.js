@@ -41,7 +41,7 @@ const NavbarComp = props => {
   const toggle = () => setIsOpen(!isOpen);
   return (
     <div>
-      <Navbar color="dark" dark expand="md">
+      <Navbar id="navbar" color="dark" dark expand="md">
         <NavbarBrand href="/">Carousel</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
